@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author rizkilahi
  */
 @Controller
-@RequestMapping("/admin/laptops")
+@RequestMapping("/admin")
 public class BrandController {
     private final BrandService brandService;
 
